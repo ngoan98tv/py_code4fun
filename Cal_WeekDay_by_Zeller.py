@@ -1,4 +1,4 @@
-# Calculate weekday by Zeller formula
+# This is a calculate weekday program.
 # Refer to https://techtalk.vn/datepicker-front-end-web-va-cac-thuat-toan-cong-thuc-zeller-bang-javascript.html
 
 import math
