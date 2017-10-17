@@ -4,17 +4,13 @@
 import math
 
 # Get input
-day = input('Enter the day: ')
-_month = input('Enter the month: ')
-_year = input('Enter the year: ')
-
-# Save as dd/mm/yyyy to print result
-date = day + '/' + _month + '/' + _year
+date = input('Enter a date (dd/mm/yyyy): ')
+_date = date.split('/')
 
 # Convert input values to int
-day = int(day)
-_month = int(_month)
-_year = int(_year)
+day = int(_date[0])
+_month = int(_date[1])
+_year = int(_date[2])
 
 # Calculate century by year
 century = math.floor(_year / 100)
